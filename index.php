@@ -201,6 +201,7 @@
             </div>
          </div>
 		 </div>
+	      
       </section>
       <section class="images-position-grid">
          <div class="container">
