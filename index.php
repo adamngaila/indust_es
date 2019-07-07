@@ -35,7 +35,7 @@
       <!--//stylesheets-->
       <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-	 
+	 <script src="lib/p5.speech.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
@@ -66,10 +66,10 @@ function setup() {
   
   
   var ongea = new p5.Speech();
- ongea.speak('habari za asubuhi naona kumekucha umeamka salama Adam Mwangaila? Adam my creator and father I love him so much he is the awesomest dude ever in the universe');
+ //ongea.speak('habari za asubuhi naona kumekucha umeamka salama Adam Mwangaila? Adam my creator and father I love him so much he is the awesomest dude ever in the universe');
   let lang = navigator.language || 'en-US';
   let speechRec = new p5.SpeechRec(lang);
-  //let continuous = true;
+  let continuous = true;
  // let interim = false;
  speechRec.onResult = showResult; // bind callback function to trigger when speech is recognized
 speechRec.start(); // start listening
@@ -78,7 +78,7 @@ speechRec.start(); // start listening
 //  ongea.speak(speechRec.resultString);
   //function maliza(){ speechRec.start();}
   function maliza(){ speechRec.start();} 
-  speakbutton = createButton('Speak');
+//  speakbutton = createButton('Speak');
       speakbutton.position(20, 100);
       speakbutton.mousePressed(doSpeak);
 
