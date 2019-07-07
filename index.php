@@ -178,7 +178,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
 </script>
    </head>
    <body>
-	   script src="p5.speech.js"></script>
+	   <script src="p5.speech.js"></script>
       <div class="header-outs" id="header">
          <!--banner -->
          <div class="header-most-top">
