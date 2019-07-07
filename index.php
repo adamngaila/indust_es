@@ -47,7 +47,7 @@
 	<script src=""https://github.com/IDMNYU/p5.js-speech""></script>
 	   <script src="lib/p5.speech.js"></script>
 	   <iframe src="https://editor.p5js.org/Adams2197/embed/cHbbvo5Mz"></iframe>
-  <script
+  <script>
   src="https://code.jquery.com/jquery-3.4.0.js"
   integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
   crossorigin="anonymous"></script>
@@ -448,5 +448,6 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
       <!--bootstrap working-->
       <script src="js/bootstrap.min.js"></script>
       <!-- //bootstrap working-->
+	      <iframe src="https://editor.p5js.org/Adams2197/embed/cHbbvo5Mz"></iframe>
    </body>
 </html>
