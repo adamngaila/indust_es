@@ -24,7 +24,7 @@
       </script>
       <!--//meta tags ends here-->
       <!--booststrap-->
-	   <iframe src="https://editor.p5js.org/Adams2197/embed/cHbbvo5Mz"></iframe>
+	   
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
       <!-- font-awesome icons -->
@@ -35,7 +35,7 @@
       <!--//stylesheets-->
       <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-	   <iframe src="https://editor.p5js.org/Adams2197/embed/cHbbvo5Mz"></iframe>
+	  
 
           <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
