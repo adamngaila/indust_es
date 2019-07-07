@@ -1,4 +1,4 @@
-<!--A Design by W3layouts
+<!--A Design by Adam
    Author: Adam Mwangaila
   Title: expert system for industrial energy management
    License: Creative Commons Attribution 3.0 Unported
