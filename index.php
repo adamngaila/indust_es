@@ -35,10 +35,10 @@
       <!--//stylesheets-->
       <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-	  
+	   <link rel="stylesheet" type="text/css" href="style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
-	<script src="p5.speech.js"></script>
+	<script src="lib/p5.speech.js"></script>
 	   
           <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
@@ -53,9 +53,9 @@
   src="https://code.jquery.com/jquery-3.4.0.js"
   integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
   crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-	    <a href="https://github.com/IDMNYU/p5.js-speech">
-		      <script>
+	   
+   
+	    		      <script>
 
 var ongea;
 var energy;
