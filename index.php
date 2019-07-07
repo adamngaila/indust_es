@@ -38,24 +38,16 @@
 	   <link rel="stylesheet" type="text/css" href="style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
-	<script src="lib/p5.speech.js"></script>
+	<script src="p5.speech.js"></script>
 	   
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-	      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-	   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
-	
-	   <script src="lib/p5.speech.js"></script>
+     	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.4.0.js"
   integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
   crossorigin="anonymous"></script>
-	   
-   
-	    		      <script>
+	<script src="lib/p5.speech.js"></script>
+	<script>
 
 var ongea;
 var energy;
@@ -72,7 +64,7 @@ function setup() {
 //  ongea.speak('habari za asubuhi naona kumekucha umeamka salama Adam Mwangaila? Adam my creator and father I love him so much he is the awesomest dude ever in the universe');
   let lang = navigator.language || 'en-US';
   let speechRec = new p5.SpeechRec(lang);
-  let continuous = true;
+  //let continuous = true;
  // let interim = false;
  speechRec.onResult = showResult; // bind callback function to trigger when speech is recognized
 speechRec.start(); // start listening
@@ -81,15 +73,14 @@ speechRec.start(); // start listening
 //  ongea.speak(speechRec.resultString);
   //function maliza(){ speechRec.start();}
   function maliza(){ speechRec.start();} 
- // speakbutton = createButton('Speak');
-      //speakbutton.position(20, 100);
-      //speakbutton.mousePressed(doSpeak);
-	 ongea.speak('habari welcome to energy management expert system');
+  speakbutton = createButton('Speak');
+      speakbutton.position(20, 100);
+      speakbutton.mousePressed(doSpeak);
 
   function doSpeak()
   {
    // ongea.interrupt = checkbox.elt.checked;
-    ongea.speak('habari welcome to energy management expert system'); // debug printer for voice options
+    ongea.speak('habari za asubuhi naona kumekucha umeamka salama Adam Mwangaila?'); // debug printer for voice options
   }
   
 
@@ -182,6 +173,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
   }
 }
   
+
 
 </script>
    </head>
@@ -332,7 +324,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
                <form action="#" method="post">
                   <div class=" subscribe-form ">
                      <div class="form-group contact-forms">
-                        <input type="email" class="form-control" placeholder="Enter" required="">
+                        <input type="text" class="form-control" placeholder="Enter" required="">
                      </div>
                      <div class="text-center click-subscribe">
                         <button type="submit" class="btn click-me">Search</button>
@@ -355,7 +347,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
                   <h5>Energy managing</h5>
                </div>
                <div class="col-lg-6 col-md-6 col-sm-6 img-second-left">
-                  <h5>Finicial Improment</h5>
+                  <h5>Finicial Improvement</h5>
                </div>
             </div>
          </div>
