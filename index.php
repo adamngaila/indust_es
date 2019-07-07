@@ -1,8 +1,8 @@
 <!--A Design by W3layouts
-   Author: W3layout
-   Author URL: http://w3layouts.com
+   Author: Adam Mwangaila
+  Title: expert system for industrial energy management
    License: Creative Commons Attribution 3.0 Unported
-   License URL: http://creativecommons.org/licenses/by/3.0/
+  institution: university of Dar es salaam Coet
    -->
 <!DOCTYPE html>
 <html lang="zxx">
@@ -36,7 +36,10 @@
       <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 	   <iframe src="https://editor.p5js.org/Adams2197/embed/cHbbvo5Mz"></iframe>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+	<script src="p5.speech.js"></script>
+	   
           <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
