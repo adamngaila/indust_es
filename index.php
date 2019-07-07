@@ -43,7 +43,7 @@
 	      
 	   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
-	<script src=""https://github.com/IDMNYU/p5.js-speech""></script>
+	
 	   <script src="lib/p5.speech.js"></script>
 	
   <script
@@ -51,8 +51,7 @@
   integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
   crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-	    <a href="https://github.com/IDMNYU/p5.js-speech">
-		      <script>
+	         <script>
 
 var ongea;
 var energy;
