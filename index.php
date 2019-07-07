@@ -24,7 +24,7 @@
       </script>
       <!--//meta tags ends here-->
       <!--booststrap-->
-	   <iframe src="https://editor.p5js.org/Adams2197/embed/cHbbvo5Mz"></iframe>
+	   
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
       <!-- font-awesome icons -->
@@ -35,7 +35,7 @@
       <!--//stylesheets-->
       <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-	   <iframe src="https://editor.p5js.org/Adams2197/embed/cHbbvo5Mz"></iframe>
+	  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
 	<script src="p5.speech.js"></script>
@@ -47,7 +47,7 @@
 	      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
 	   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
-	<script src=""https://github.com/IDMNYU/p5.js-speech""></script>
+	
 	   <script src="lib/p5.speech.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.4.0.js"
@@ -72,7 +72,7 @@ function setup() {
 //  ongea.speak('habari za asubuhi naona kumekucha umeamka salama Adam Mwangaila? Adam my creator and father I love him so much he is the awesomest dude ever in the universe');
   let lang = navigator.language || 'en-US';
   let speechRec = new p5.SpeechRec(lang);
-  //let continuous = true;
+  let continuous = true;
  // let interim = false;
  speechRec.onResult = showResult; // bind callback function to trigger when speech is recognized
 speechRec.start(); // start listening
@@ -81,9 +81,9 @@ speechRec.start(); // start listening
 //  ongea.speak(speechRec.resultString);
   //function maliza(){ speechRec.start();}
   function maliza(){ speechRec.start();} 
-  speakbutton = createButton('Speak');
-      speakbutton.position(20, 100);
-      speakbutton.mousePressed(doSpeak);
+ // speakbutton = createButton('Speak');
+      //speakbutton.position(20, 100);
+      //speakbutton.mousePressed(doSpeak);
 
   function doSpeak()
   {
@@ -185,6 +185,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
 </script>
    </head>
    <body>
+	   script src="p5.speech.js"></script>
       <div class="header-outs" id="header">
          <!--banner -->
          <div class="header-most-top">
