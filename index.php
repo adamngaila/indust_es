@@ -35,12 +35,28 @@
       <!--//stylesheets-->
       <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-	   <link rel="stylesheet" type="text/css" href="style.css">
+	  
+	   <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.js"></script>
+	<script src="lib/p5.speech.js"></script>
+	  <script src="lib/sketch.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+	
+     	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+	
+	
+	  
 	   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
-	<script src="lib/p5.speech.js"></script>
-	   
+	
      	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
   <script
@@ -48,10 +64,14 @@
   integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
   crossorigin="anonymous"></script>
 	<script src="lib/p5.speech.js"></script>
-	
+	 <link rel="stylesheet" type="text/css" href="style.css">
    </head>
    <body>
-	   <script src="p5.speech.js"></script>
+	     <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.js"></script>
+	<script src="lib/p5.speech.js"></script>
+	  <script src="lib/sketch.js"></script>
+	   
       <div class="header-outs" id="header">
          <!--banner -->
          <div class="header-most-top">
