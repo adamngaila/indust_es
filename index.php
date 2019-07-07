@@ -24,7 +24,9 @@
       </script>
       <!--//meta tags ends here-->
       <!--booststrap-->
-	   
+	<script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>   
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
       <!-- font-awesome icons -->
@@ -36,15 +38,7 @@
       <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 	 <script src="lib/p5.speech.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-	      
-	   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
-	
-	   <script src="lib/p5.speech.js"></script>
+     
 	
   <script
   src="https://code.jquery.com/jquery-3.4.0.js"
@@ -181,6 +175,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
 </script>
    </head>
    <body>
+	      <script src="lib/p5.speech.js"></script>
       <div class="header-outs" id="header">
          <!--banner -->
          <div class="header-most-top">
