@@ -84,6 +84,7 @@ speechRec.start(); // start listening
  // speakbutton = createButton('Speak');
       //speakbutton.position(20, 100);
       //speakbutton.mousePressed(doSpeak);
+	 ongea.speak('habari welcome to energy management expert system');
 
   function doSpeak()
   {
@@ -407,10 +408,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
       <script src="js/jquery.waypoints.min.js"></script>
       <script src="js/jquery.countup.js"></script>
 
-    <script src="sketch.js"></script>
-    <script src="p5.speech.js"></script>
-     <script src="p5.dom.js"></script>
-     <script src="p5.sound.js"></script>
+    
       <script>
          $('.counter').countUp();
       </script>
