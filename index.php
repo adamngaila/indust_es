@@ -225,7 +225,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
                                  <a href="consu.php" class="nav-link">Energy Data</a>
                               </li>
                               <li class="nav-item">
-                                 <a href="index2.html" class="nav-link">Energy Monitoring</a>
+                                 <a href="morris.php" class="nav-link">Energy Monitoring</a>
                               </li>
                               <li class="nav-item">
                                  <a href="heat.php" class="nav-link">Decision Suport System</a>
@@ -314,7 +314,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
                      <h6>02</h6>
                   </div>
                   <div class="col-md-8 col-sm-8 col-8 funt-agile-text text-left">
-                     <h4 class="mb-3">Electric metering tariffs</h4>
+                     <h4 class="mb-3">Electricity metering tariffs</h4>
                      <p></p>
                   </div>
                </div>
@@ -340,7 +340,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
       <section class="py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
          <div class="title text-center mb-lg-4 mb-md-3 mb-3">
-            <h3>Energy Assisting Question</h3>
+            <h3>Assistance on Energy management</h3>
          </div>
          <div class="mt-lg-4 mt-3 address_mail_footer_grids">
             <div class="news-about-us">
@@ -367,10 +367,10 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
          <div class="container">
             <div class="row imgs-both-side">
                <div class="col-lg-6 col-md-6 col-sm-6 img-first-left">
-                  <h5>Energy managing</h5>
+                  <h5>Efficint energy management</h5>
                </div>
                <div class="col-lg-6 col-md-6 col-sm-6 img-second-left">
-                  <h5>Finicial Improvement</h5>
+                  <h5>Fincial Improvement</h5>
                </div>
             </div>
          </div>
