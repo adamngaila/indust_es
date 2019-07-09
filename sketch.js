@@ -41,7 +41,7 @@ function showResult()
     
     }
     
-    if(speechRec.resultString == 'introduce yourself'){
+    if(speechRec.resultString == 'introduce yourself'||'who are you'){
  //  console.log(speechRec.resultString); 
       
     createP(speechRec.resultSring);
