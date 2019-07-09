@@ -1,3 +1,36 @@
+<?php
+ private $conn;
+    
+    $servername = "bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbname = "xdvjkpkp986nwt21";
+    $username = "zx0hce4ovc2os4cs";
+    $password = "x2den1myinx55q73";
+  
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+      if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+       }else{
+        $this->conn=$conn;  
+      }
+    $sql = "SELECT * FROM daily_consumption ORDER BY id asc limit 20";
+$result=  $this->conn->query($sql);
+$chart_data = '';
+while($row = mysqli_fetch_arrey($result))
+{
+    $chart_data .="{days:'".$row["datetim"]."',demand:".$row["demand"].",total_energy:".$row["total_energy(GJ)"]."},";
+
+}
+$chart_data = substr ($chart_data,0,-2);
+
+
+
+>
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -13,6 +46,14 @@
       <link href="assets/css/main-style.css" rel="stylesheet" />
     <!-- Page-Level CSS -->
     <link href="assets/plugins/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <script 
+    src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js">
+</script>
+<script 
+    src="http://code.jquery.com/jquery-1.8.2.min.js">
+</script>
+<script src="//cdn.jsdelivr.net/morris.js/0.4.1/morris.min.js"></script>
+<meta charset=utf-8 />
 
 
 </head>
@@ -398,3 +439,17 @@
 </body>
 
 </html>
+
+
+<script>
+    morris.Area({
+    
+    element :  'morris-area-chart',
+        data: [<?php echo $demand_data>],
+            xkey:'days',
+            ykeys:['demand','total_energy'],
+            labels:['demand','total_energy'],
+            hideHover:'auto',
+    
+    
+    });
