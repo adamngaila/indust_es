@@ -1,33 +1,3 @@
-<?php
- private $conn;
-    
-    $servername = "bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbname = "xdvjkpkp986nwt21";
-    $username = "zx0hce4ovc2os4cs";
-    $password = "x2den1myinx55q73";
-  
-
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-      if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-       }else{
-        $this->conn=$conn;  
-      }
-    $sql = "SELECT * FROM daily_consumption ORDER BY id asc limit 20";
-$result=  mysqli_query($conn,$sql);
-$chart_data = '';
-while($row = mysqli_fetch_arrey($result))
-{
-    $chart_data .="{days:'".$row["datetim"]."',demand:".$row["demand"].",total_energy:".$row["total_energy(GJ)"]."},";
-
-}
-$chart_data = substr ($chart_data,0,-2);
-
-
-
->
 
 <!DOCTYPE html>
 <html>
@@ -433,13 +403,36 @@ $chart_data = substr ($chart_data,0,-2);
     <!-- Page-Level Plugin Scripts-->
     <script src="assets/plugins/morris/raphael-2.1.0.min.js"></script>
     <script src="assets/plugins/morris/morris.js"></script>
-
+<?php
+ private $conn;
     
-</body>
+    $servername = "bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbname = "xdvjkpkp986nwt21";
+    $username = "zx0hce4ovc2os4cs";
+    $password = "x2den1myinx55q73";
+  
 
-</html>
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+      if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+       }else{
+        $this->conn=$conn;  
+      }
+    $sql = "SELECT * FROM daily_consumption ORDER BY id asc limit 20";
+$result=  mysqli_query($conn,$sql);
+$chart_data = '';
+while($row = mysqli_fetch_arrey($result))
+{
+    $chart_data .="{days:'".$row["datetim"]."',demand:".$row["demand"].",total_energy:".$row["total_energy(GJ)"]."},";
+
+}
+$chart_data = substr ($chart_data,0,-2);
 
 
+
+>
 <script>
     morris.Area({
     
@@ -453,3 +446,10 @@ $chart_data = substr ($chart_data,0,-2);
     
     });
 </script>
+
+    
+</body>
+
+</html>
+
+
