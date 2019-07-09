@@ -16,7 +16,7 @@
         $this->conn=$conn;  
       }
     $sql = "SELECT * FROM daily_consumption ORDER BY id asc limit 20";
-$result=  $this->conn->query($sql);
+$result=  mysqli_query($conn,$sql);
 $chart_data = '';
 while($row = mysqli_fetch_arrey($result))
 {
@@ -435,7 +435,7 @@ $chart_data = substr ($chart_data,0,-2);
     <!-- Page-Level Plugin Scripts-->
     <script src="assets/plugins/morris/raphael-2.1.0.min.js"></script>
     <script src="assets/plugins/morris/morris.js"></script>
-    <script src="assets/scripts/morris-demo.js"></script>
+    
 </body>
 
 </html>
