@@ -67,6 +67,8 @@
   integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
   crossorigin="anonymous"></script>
 	<script src="../lib/p5.speech.js"></script>
+	<!--
+	
 	<script>
 
 var ongea;
@@ -192,7 +194,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
   
   }
 }
-  
+  -->
 
 	 <link rel="stylesheet" type="text/css" href="style.css">
    </head>
