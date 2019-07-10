@@ -45,7 +45,7 @@ function showResult()
  //  console.log(speechRec.resultString); 
       
     createP(speechRec.resultSring);
-  ongea.speak('Greetings members of the panel. My name is project IE7-18-4. I am still under development process. I was created by Adam Mwangaila. an industrial engineering student from Coet. in department of mechanical and industrial engineering at. university of daressalaam with the great assistance from doctor Victoria Mahabi. I hope once I am finished I will provide a good help and assistance to the community especially on Industrial Energy management. Ooooohooooh! I am so excited. Thank you');// log the result
+  ongea.speak('Greetings. My name is project IE7-18-4. I am still under development process. I was created by Adam Mwangaila. an industrial engineering student from Coet. in department of mechanical and industrial engineering at. university of daressalaam with the great assistance from doctor Victoria Mahabi. I hope once I am finished I will provide a good help and assistance to the community especially on Industrial Energy management. Ooooohooooh! I am so excited. Thank you');// log the result
 // createP(speechRec.resultString);
     }
   if(speechRec.resultString == 'how are you'){ createP(speechRec.resultString);
