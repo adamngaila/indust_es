@@ -1,7 +1,7 @@
 
 //morris area chart
 
-$(function () {
+$(document).ready(function () {
  $.ajax({
     url: "class/student.php",
     method: "GET",
