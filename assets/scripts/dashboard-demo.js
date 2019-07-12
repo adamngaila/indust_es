@@ -2,6 +2,12 @@ $(function() {
     //  morris Area chart on dashboard///
     Morris.Area({
         element: 'morris-area-chart',
+        data : [<?php echo $chart_data;  ?>],
+		xkey : 'days',
+		ykeys : ['demand','total_energy(GJ)'],
+		labels : ['demand','total_energy(GJ)'],
+		hideHover:'auto',
+
         
         pointSize: 2,
         hideHover: 'auto',
