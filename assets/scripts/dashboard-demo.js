@@ -24,10 +24,10 @@ $(function() {
             label: "Download Sales",
             value: 12
         }, {
-            label: "In-Store Sales",
+            label: "industry consumption",
             value: 30
         }, {
-            label: "Mail-Order Sales",
+            label: "total energy consumption",
             value: 20
         }],
         resize: true
