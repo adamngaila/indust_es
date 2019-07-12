@@ -1,7 +1,7 @@
 $(function() {
     //  morris Area chart on dashboard///
     $.ajax({
-    url: "https://github.com/adamngaila/indust_es.git/class/student.php",
+    url: "https://github.com/adamngaila/indust_es/class/student.php",
     method: "GET",
     success: function(chart_data) {
     Morris.Area({
