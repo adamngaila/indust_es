@@ -2,23 +2,14 @@
 //morris area chart
 
 $(function () {
-<?php
-
-$connection = mysql_connect("bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","zx0hce4ovc2os4cs","x2den1myinx55q73","xdvjkpkp986nwt21");
-$query = "SELECT * FROM daily_consumption";
-$result =mysql_query($connection,$query);
-$chart_data = '';
-while ($row = mysql_fetch_array($result)) {
-	$chart_data .="{days:'".$row["datetim"]."',demand : ".$row["demand"].",total_energy(GJ) : ".$row["total_energy(GJ)"]."},";
-}
-$chart_data = substr($chart_data,0, -2);
-
-?>
-
+ $.ajax({
+    url: "http://localhost/chartjs/student.php",
+    method: "GET",
+    success: function(chart_data) {
     Morris.Area({
         element: 'morris-area-chart',
      
-		data : [<?php echo $chart_data;  ?>],
+		data : [chart_data],
 		xkey : 'days',
 		ykeys : ['demand','total_energy(GJ)'],
 		labels : ['demand','total_energy(GJ)'],
@@ -27,6 +18,7 @@ $chart_data = substr($chart_data,0, -2);
         pointSize: 2,
      
         resize: true
+    });
     });
     //morris donut chart
     Morris.Donut({
