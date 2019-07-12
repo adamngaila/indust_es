@@ -15,6 +15,7 @@ $(function() {
         pointSize: 2,
         hideHover: 'auto',
         resize: true
+    });}
     });
     //  morris donut chart on dashboard///
     Morris.Donut({
