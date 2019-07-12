@@ -3,7 +3,7 @@
 
 $(document).ready(function () {
  $.ajax({
-    url: "class/student.php",
+    url: "https://github.com/adamngaila/indust_es.git/class/student.php",
     method: "GET",
     success: function(chart_data) {
     Morris.Area({
