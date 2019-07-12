@@ -18,7 +18,7 @@ $(document).ready(function () {
         pointSize: 2,
      
         resize: true
-    });
+    });}
     });
     //morris donut chart
     Morris.Donut({
