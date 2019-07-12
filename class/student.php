@@ -504,28 +504,4 @@ $chart_data = substr($chart_data,0, -2);
 }
 
 ?> 
-<?php
- session_start();
-    $servername = "bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbname = "xdvjkpkp986nwt21";
-    $username = "zx0hce4ovc2os4cs";
-    $password = "x2den1myinx55q73";
-  
 
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-      if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-       }else{
-        $this->conn=$conn;  
-       }
-$query = "SELECT * FROM daily_consumption";
-$result =mysql_query($conn,$query);
-$chart_data = '';
-while ($row = mysql_fetch_array($result)) {
-  $chart_data .="{days:'".$row["datetim"]."',demand : ".$row["demand"].",total_energy(GJ) : ".$row["total_energy(GJ)"]."},";
-}
-$chart_data = substr($chart_data,0, -2);
-mysqli_close($this->conn);  
-?>
