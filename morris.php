@@ -423,27 +423,4 @@ $chart_data = substr($chart_data,0, -2);
 
 </html>
 
-<script type="text/javascript">
-	Morris.Area({
 
-		element : 'morris-area-chart',
-		data : [<?php echo $chart_data;  ?>],
-		xkey : 'days',
-		ykeys : ['demand','total_energy(GJ)'],
-		labels : ['demand','total_energy(GJ)'],
-		hideHover:'auto',
-
-
-
-
-
-
-
-
-	}
-		);
-
-
-
-
-</script>
