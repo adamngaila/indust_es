@@ -22,6 +22,17 @@ class Student
     } 
 
 //kwajili ya page ya forecasting
+<?php
+
+$query = "SELECT * FROM daily_consumption";
+$result =mysql_query($conn,$query);
+$chart_data = '';
+while ($row = mysql_fetch_array($result)) {
+  $chart_data .="{days:'".$row["datetim"]."',demand : ".$row["demand"].",total_energy(GJ) : ".$row["total_energy(GJ)"]."},";
+}
+$chart_data = substr($chart_data,0, -2);
+
+?>
 
   public function forecast_info($post_data=array()){
 
