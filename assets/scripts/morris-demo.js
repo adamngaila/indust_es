@@ -24,13 +24,13 @@ $(document).ready(function () {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
-            label: "Download Sales",
+            label: "administration energy consumption",
             value: 12
         }, {
-            label: "In-Store Sales",
+            label: "production energy consumption",
             value: 30
         }, {
-            label: "Mail-Order Sales",
+            label: "total consumption",
             value: 20
         }],
         resize: true
