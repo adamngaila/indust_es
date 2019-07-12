@@ -3,7 +3,7 @@
 
 $(function () {
  $.ajax({
-    url: "http://localhost/chartjs/student.php",
+    url: "class/student.php",
     method: "GET",
     success: function(chart_data) {
     Morris.Area({
