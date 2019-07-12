@@ -5,7 +5,7 @@ $(function () {
 
     Morris.Area({
         element: 'morris-area-chart',
-       element : 'morris-area-chart',
+     
 		data : [<?php echo $chart_data;  ?>],
 		xkey : 'days',
 		ykeys : ['demand','total_energy(GJ)'],
