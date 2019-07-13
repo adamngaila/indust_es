@@ -341,6 +341,8 @@
                         </div>
                         <div class="panel-body">
                             <div id="morris-area-chart"></div>
+                            <link rel="stylesheet" type="text/css" href="path/to/chartjs/dist/Chart.min.css">
+                                   <canvas id="morris-area-chart" width="300" height="300"></canvas>
                         </div>
                     </div>
                     <!-- End Area Chart -->
