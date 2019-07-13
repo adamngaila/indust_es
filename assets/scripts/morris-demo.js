@@ -18,6 +18,7 @@ $(document).ready(function () {
         total_energy(GJ).push(data[i].total_energy(GJ));
       }
 }
+ });
 Morris.Area({
         element: 'morris-area-chart',
      
@@ -33,7 +34,7 @@ Morris.Area({
     });
       
     
-  });
+ 
     //morris donut chart
     Morris.Donut({
         element: 'morris-donut-chart',
