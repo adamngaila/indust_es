@@ -160,10 +160,8 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="alert alert-warning text-center">
-                      <i class="fa  fa-pencil fa-3x"> </i>&nbsp; Energy audit
-                        li>
-                                <a href="lighting.php">Lighting</a>
-                            </li>
+                      <i class="fa  fa-pencil fa-3x"></i>&nbsp; Energy audit
+                       
                     </div>
                 </div>
                 <!--end quick info section -->
