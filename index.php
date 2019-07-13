@@ -365,7 +365,7 @@ if (isset($_POST['search1'])) {
             <div class="form-group">
        
             </div>                                       
-            <button type="submit" class="button button-green  pull-right" name="search1" value="search"/>
+            <button type="submit" class="button button-green  pull-right" name="search1" value="searchi"/>
         </form> 
     </div>
                   </div>
