@@ -10,13 +10,17 @@ if (isset($_POST['forecast'])) {
         
         
         <hr/>
+        <div>
+          <p>Forecasting of energy  consumtion data of the future is an AI functionality that predict what will be your consumption of energy in future based on the past trend of consumption</p>
+        <?div>
+        
         <form method="post" action="" style="width: 250px;">
             <div class="form-group">
-                <label for="Start_Date">Start Date:</label>
+                <label for="Start_Date"PLease enter Date you want to start forecasting from:</label>
                 <input type="Date" name="Start_Date" id="Start_Date" class="form-control" required maxlength="50">
             </div>
             <div class="form-group">
-                <label for="End_date">End date:</label>
+                <label for="End_date">Please enter date you want to forecast:</label>
                 <input type="Date" class="form-control" name="End_date" id="End_date" required maxlength="50">
             </div>                                       
             <input type="submit" class="button button-green  pull-right" name="forecast" value="Submit"/>
