@@ -357,7 +357,7 @@ if (isset($_POST['search1'])) {
                     <div class="container"> 
     <div class="row content"> 
         <hr/>
-        <form method="post" action="" style="width: 650px;">
+        <form method="post" action="" style="width: 6550px;">
             <div class="form-group contact-forms">
                         <input type="text" name="searching" id="searchi" class="form-control" placeholder="Enter" required="">
                      </div>
@@ -365,7 +365,7 @@ if (isset($_POST['search1'])) {
             <div class="form-group">
        
             </div>                                       
-            <button type="submit" class="button button-green  pull-right" name="search1" value="searchi"/>
+            <input type="submit" class="button button-green  pull-right" name="search1" value="submit"/>
         </form> 
     </div>
                   </div>
