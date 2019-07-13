@@ -143,13 +143,13 @@
                 <!--quick info section -->
                 <div class="col-lg-3">
                     <div class="alert alert-danger text-center">
-                       <a href="energyin.php"> <i class="fa fa-calendar fa-3x"></i>&nbsp;Energy analysis.
+                <i class="fa fa-calendar fa-3x"></i>&nbsp;Energy analysis.
 
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="alert alert-success text-center">
-                     <a href="consplan.php"> <i class="fa  fa-folder-open fa-3x"></i>&nbsp;Energy planning  
+                     <i class="fa  fa-folder-open fa-3x"></i>&nbsp;Energy planning  
                     </div>
                 </div>
                 <div class="col-lg-3">
