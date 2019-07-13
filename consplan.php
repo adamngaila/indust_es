@@ -12,7 +12,7 @@ if (isset($_POST['forecast1'])) {
         <hr/>
 	    <div>
 	      <div>
-		      <h3>Consumption planning</h3>
+		      <p>CONSUMPTION PLANNING</p>
 		      <div>
  <p>Consumption planning is the functionality that enables you to plan how the ofrecasted energy will be used in the industry</p>
 		   
