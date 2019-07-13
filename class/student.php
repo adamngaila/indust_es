@@ -20,6 +20,7 @@ class Student
        }
 
     } 
+    
 
 //kwajili ya page ya forecasting
 
@@ -38,6 +39,24 @@ class Student
   ?> <h3><?php echo "Forecasting: ".$row['average_energy'];?></h3><?php
 
        }
+       }
+      public function searchy($post_data=array()){
+
+  if(isset($post_data['search1'])){
+
+      $searchs= mysqli_real_escape_string($this->conn,trim($post_data['searching']));
+
+      if($searchs = 'introduce yourself'){
+
+?> <h3><?php echo "ABOUT MYSELF "></h3><?php
+?> <h3><?php echo "my name is project IE7-4-18 I was created by Adam Mwangaila with great assistance from doctor victoria mahabi "></h3><?php
+ 
+
+      }
+     
+
+      
+        }
        }
 
 
