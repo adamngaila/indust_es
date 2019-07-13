@@ -51,7 +51,7 @@ class Student
       $Department= mysqli_real_escape_string($this->conn,trim($post_data['Department']));
 
        $sum=$plan*$Department; 
-  ?> <h3><?php echo "Consumption plan: ".$sum;?></h3><?php
+  ?> <h3><?php echo "Consumption plan for $Department is : ".$sum +"KWh";?></h3><?php
        }
        }
 
