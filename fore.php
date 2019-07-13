@@ -18,7 +18,7 @@ if (isset($_POST['forecast'])) {
         <div>
         </div>
         
-        <form method="post" action="" style="width: 250px;">
+        <form method="post" action="" style="width: 500px;">
             <div class="form-group">
                 <label for="Start_Date">PLease enter Date you want to start forecasting from:</label>
                 <input type="Date" name="Start_Date" id="Start_Date" class="form-control" required maxlength="50">
