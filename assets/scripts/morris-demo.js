@@ -51,8 +51,7 @@ $(function () {
 
      
         //resize: true
-    });
-
+   
       
     
  
