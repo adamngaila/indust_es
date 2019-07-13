@@ -3,23 +3,37 @@
 
 $(document).ready(function () {
  $.ajax({
-    url: "https://github.com/adamngaila/indust_es/tree/master/class/student.php",
+    url: "https://github.com/adamngaila/indust_es/tree/master/class/chora.php",
     method: "GET",
-    success: function(chart_data) {
-    Morris.Area({
+    success: function(data) {
+      
+      var days = [];
+      var demand = [];
+      var total_energy(GJ) = [];
+
+
+      for(var i in data) {
+        days.push(data[i].daytime);
+        demand.push(data[i].demand);
+        total_energy(GJ).push(data[i].total_energy(GJ));
+      }
+}
+Morris.Area({
         element: 'morris-area-chart',
      
-		data : [chart_data],
-		xkey : 'days',
-		ykeys : ['demand','total_energy(GJ)'],
-		labels : ['demand','total_energy(GJ)'],
-		hideHover:'auto',
+    data : [chart_data],
+    xkey : 'days',
+    ykeys : ['demand','total_energy(GJ)'],
+    labels : ['demand','total_energy(GJ)'],
+    hideHover:'auto',
 
         pointSize: 2,
      
         resize: true
-    });}
     });
+      
+    
+  });
     //morris donut chart
     Morris.Donut({
         element: 'morris-donut-chart',
