@@ -57,7 +57,7 @@
                     <br>
 
                     <li class="selected">
-                        <a href="fore.php"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+                        <a href="fore.php"><i class="fa fa-dashboard fa-fw"></i>DSS</a>
                     </li>
 
                     <li>
@@ -123,7 +123,7 @@
             <div class="row">
                 <!-- Page Header -->
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h1 class="page-header">Decision Support</h1>
                 </div>
                 <!--End Page Header -->
             </div>
@@ -143,13 +143,13 @@
                 <!--quick info section -->
                 <div class="col-lg-3">
                     <div class="alert alert-danger text-center">
-                        <i class="fa fa-calendar fa-3x"></i>&nbsp;Energy analysis.
+                        <a href="fore.php"><i class="fa fa-calendar fa-3x"></i>&nbsp;Energy analysis.
 
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="alert alert-success text-center">
-                        <i class="fa  fa-beer fa-3x"></i>&nbsp;Energy planning  
+                        <i class="fa  fa-open-folder fa-3x"></i>&nbsp;Energy planning  
                     </div>
                 </div>
                 <div class="col-lg-3">
