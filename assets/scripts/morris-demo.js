@@ -2,7 +2,34 @@
 //morris area chart
 
 $(function () {
+ $.ajax({
+    url: "https://github.com/adamngaila/indust_es/tree/master/class/chora.php",
+    method: "GET",
+    success: function(data) {
+      
+      var days = [];
+      var demand = [];
+      var total_energy(GJ) = [];
+      for(var i in data) {
+        days.push(data[i].daytime);
+        demand.push(data[i].demand);
+        total_energy(GJ).push(data[i].total_energy(GJ));
+      }
+    }
+ });
+ Morris.Area({
+        element: 'morris-area-chart',
+     
+    data : ['days','demand','total_energy(GJ))'],
+    xkey : 'days',
+    ykeys : ['demand','total_energy(GJ)'],
+    labels : ['demand','total_energy(GJ)'],
+    hideHover:'auto',
 
+     
+        resize: true
+    });
+}
       
     
  
