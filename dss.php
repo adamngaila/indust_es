@@ -11,7 +11,9 @@ if (isset($_POST['create_consu'])) {
         <div> 
         </div>
 
-        <P> With this functionality you can do forecasting of energy consumtion in the futer, plan how you can consumre the forecasted energy to various departments and to generate policy to guide how to achieve that. you can also do analysis of your consumption of energy and get to know how you are performing interms of comsumption, cost and production. Also you can perform energy audit </P>
+        <P> With this functionality you can do forecasting of energy consumtion in the futer,plan how you can consumre the forecasted energy to various departments and to generate policy to guide how to achieve that.</p> 
+        <P>You can also do analysis of your consumption of energy and get to know how you are performing interms of comsumption, cost and production.</p>
+        <p>Also you can perform energy audit in order to identify existing energy management potential opportunitys as well as compairing your performance with previous production periods </P>
      
         
     </div>
