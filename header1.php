@@ -57,7 +57,7 @@
                     <br>
 
                     <li class="selected">
-                        <a href="fore.php"><i class="fa fa-dashboard fa-fw"></i>DSS</a>
+                        <a href="dss.php"><i class="fa fa-dashboard fa-fw"></i>DSS</a>
                     </li>
 
                     <li>
