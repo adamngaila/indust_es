@@ -10,9 +10,16 @@ if (isset($_POST['forecast1'])) {
         
         
         <hr/>
+	    <div>
+	      <div>
+		      <h4>Consumption planning is the functionality that enables you to plan how the ofrecasted energy will be used in the industry</h4>
+		    </div>
+	    </div>
+	        <div></div>
+	      <div></div>
         <form method="post" action="" style="width: 250px;">
             <div class="form-group">
-                <label for="student_name">Input your plan:</label>
+                <label for="student_name">input the forecasted energy to plan for consumption in various depertment:</label>
                 <input type="text" name="plan" id="student_name" class="form-control" >
             </div>
             <div class="form-group">
