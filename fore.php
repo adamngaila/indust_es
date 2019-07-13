@@ -12,7 +12,7 @@ if (isset($_POST['forecast'])) {
         <hr/>
         <div>
             <div>
-          <p>Forecasting of energy  consumtion data of the future is an AI functionality that predict what will be your consumption of energy in future based on the past trend of consumption</p>
+          <h4>Forecasting of energy  consumtion data of the future is an AI functionality that predict what will be your consumption of energy in future based on the past trend of consumption</h4>
         </div>
         </div>
         <div>
@@ -20,7 +20,7 @@ if (isset($_POST['forecast'])) {
         
         <form method="post" action="" style="width: 250px;">
             <div class="form-group">
-                <label for="Start_Date"PLease enter Date you want to start forecasting from:</label>
+                <label for="Start_Date">PLease enter Date you want to start forecasting from:</label>
                 <input type="Date" name="Start_Date" id="Start_Date" class="form-control" required maxlength="50">
             </div>
             <div class="form-group">
