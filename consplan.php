@@ -12,12 +12,16 @@ if (isset($_POST['forecast1'])) {
         <hr/>
 	    <div>
 	      <div>
-		      <h4>Consumption planning is the functionality that enables you to plan how the ofrecasted energy will be used in the industry</h4>
+		      <h3>Consumption planning</h3>
+		      <div>
+ <p>Consumption planning is the functionality that enables you to plan how the ofrecasted energy will be used in the industry</p>
+		   
 		    </div>
+	    </div>
 	    </div>
 	        <div></div>
 	      <div></div>
-        <form method="post" action="" style="width: 250px;">
+        <form method="post" action="" style="width:500px;">
             <div class="form-group">
                 <label for="student_name">input the forecasted energy to plan for consumption in various depertment:</label>
                 <input type="text" name="plan" id="student_name" class="form-control" >
