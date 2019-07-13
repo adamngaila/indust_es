@@ -199,6 +199,12 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
 	 <link rel="stylesheet" type="text/css" href="style.css">
    </head>
    <body>
+	   <?php
+if (isset($_POST['search1'])) {
+    $student_obj->searchy($_POST);
+}
+?>
+	   
 	     <script src="lib/p5.js"></script>
     <script src="lib/p5.sound.js"></script>
 	<script src="lib/p5.speech.js"></script>
@@ -348,12 +354,20 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
             <div class="news-about-us">
                <form action="#" method="post">
                   <div class=" subscribe-form ">
-                     <div class="form-group contact-forms">
-                        <input type="text" class="form-control" placeholder="Enter" required="">
+                    <div class="container"> 
+    <div class="row content"> 
+        <hr/>
+        <form method="post" action="" style="width: 650px;">
+            <div class="form-group contact-forms">
+                        <input type="text" name="searching" id="searchi" class="form-control" placeholder="Enter" required="">
                      </div>
                      <div class="text-center click-subscribe">
-                        <button type="submit" class="btn click-me">Search</button>
-                     </div>
+            <div class="form-group">
+       
+            </div>                                       
+            <button type="submit" class="button button-green  pull-right" name="search1" value="search"/>
+        </form> 
+    </div>
                   </div>
                </form>
                <div class="info-sub-w3 text-center mt-lg-4 mt-3">
