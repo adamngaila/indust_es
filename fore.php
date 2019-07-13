@@ -11,7 +11,11 @@ if (isset($_POST['forecast'])) {
         
         <hr/>
         <div>
+            <div>
           <p>Forecasting of energy  consumtion data of the future is an AI functionality that predict what will be your consumption of energy in future based on the past trend of consumption</p>
+        </div>
+        </div>
+        <div>
         </div>
         
         <form method="post" action="" style="width: 250px;">
