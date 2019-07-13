@@ -15,21 +15,44 @@ $(function () {
         demand.push(data[i].demand);
         total_energy(GJ).push(data[i].total_energy(GJ));
       }
+     var chartdata = {
+        labels: player,
+        datasets : [
+          {
+            label: 'demand  total_energy(GJ)',
+            backgroundColor: 'rgba(200, 200, 200, 0.75)',
+            borderColor: 'rgba(200, 200, 200, 0.75)',
+            hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+            hoverBorderColor: 'rgba(200, 200, 200, 1)',
+            data: days
+          }
+        ]
+      };
+    }
+  var ctx = $('morris-area-chart');
+
+      var barGraph = new Chart(ctx, {
+        type: 'Area',
+        data: chartdata
+      });
+    },
+    error: function(data) {
+      
     }
  });
- Morris.Area({
-        element: 'morris-area-chart',
+// Morris.Area({
+ //       element: ,
      
-    data : ['days','demand','total_energy(GJ))'],
-    xkey : 'days',
-    ykeys : ['demand','total_energy(GJ)'],
-    labels : ['demand','total_energy(GJ)'],
-    hideHover:'auto',
+ //   data : ['days','demand','total_energy(GJ))'],
+  //  xkey : 'days',
+   // ykeys : ['demand','total_energy(GJ)'],
+  //  labels : ['demand','total_energy(GJ)'],
+   // hideHover:'auto',
 
      
-        resize: true
+        //resize: true
     });
-}
+
       
     
  
