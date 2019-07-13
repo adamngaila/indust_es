@@ -154,7 +154,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="alert alert-info text-center">
-                         <a href="fore.php"> <i class="fa fa-rss fa-3x"></i>&nbsp; Forecasting
+                          <i class="fa fa-rss fa-3x"></i>&nbsp; Forecasting
 
                     </div>
                 </div>
