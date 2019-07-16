@@ -233,7 +233,7 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
                                  <a href="dss.php" class="nav-link">Decision Support System</a>
                               </li>
 				    <li class="nav-item">
-                                 <a href="dss.php" class="nav-link">training</a>
+                                 <a href="learn.html" class="nav-link">training</a>
                               </li>
                            </ul>
                         </div>
