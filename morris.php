@@ -20,8 +20,7 @@
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
  <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
  <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js" integrity="sha256-Uv9BNBucvCPipKQ2NS9wYpJmi8DTOEfTA/nH2aoJALw=" crossorigin="anonymous"></script>
-<script>
+     
 
 </head>
 
@@ -343,8 +342,7 @@
                         </div>
                         <div class="panel-body">
                             <div id="morris-area-chart"></div>
-                            <link rel="stylesheet" type="text/css" href="path/to/chartjs/dist/Chart.min.css">
-                                   <canvas id="morris-area-chart" width="300" height="300"></canvas>
+                            
                         </div>
                     </div>
                     <!-- End Area Chart -->
