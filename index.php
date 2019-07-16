@@ -230,7 +230,10 @@ ongea.speak('hahahaha sense of humor, what do you want to talk about. What is in
                                  <a href="morris.php" class="nav-link">Energy Monitoring</a>
                               </li>
                               <li class="nav-item">
-                                 <a href="heat.php" class="nav-link">Decision Suport System</a>
+                                 <a href="dss.php" class="nav-link">Decision Support System</a>
+                              </li>
+				    <li class="nav-item">
+                                 <a href="dss.php" class="nav-link">training</a>
                               </li>
                            </ul>
                         </div>
