@@ -1,4 +1,4 @@
-$(function() {
+(function() {
     //  morris Area chart on dashboard///
   
      Morris.Area({
