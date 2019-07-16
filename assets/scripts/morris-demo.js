@@ -1,7 +1,7 @@
 
 //morris area chart
 
-function () {
+(function () {
  
 
  Morris.Area({
