@@ -13,13 +13,13 @@ Examples:
 
     You> when I say hello bot you say hello human
     Generated Code>
-        + hello bot
-        - Hello human
+        + hello 
+        - Hello there 
 
-    You> when I say who is Kirsle you say he is the creator of RiveScript.
+    You> when I say who is adam mwangaila you say he is my creator with great assistance from doctor victoria mahabi.
     Generated Code>
-        + who is kirsle
-        - He is the creator of rivescript.
+        + who is adam mwangaila
+        - He is my creator with great assistance from doctor victoria mahabit.
 
     This example only works with the assistance of the JavaScript program:
     You> when I say Who is * you say I've never heard of <formal> before!
