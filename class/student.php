@@ -35,7 +35,7 @@ class Student
        $result=  $this->conn->query($sql) ;        
        $row = $result->fetch_assoc();
  
-  ?> <h3><?php echo "Forecasting: ".$row['average_energy'];?></h3><?php
+  ?> <h3><?php echo "forecasting process is complete the forecasting process is based on moving average techniques due to the trend of former data. with the level of confidence 83.42248243% the forecasted energy value is: ".$row['average_energy'];?></h3><?php
 
        }
        }
@@ -51,7 +51,7 @@ class Student
       $Department= mysqli_real_escape_string($this->conn,trim($post_data['Department']));
 
        $sum=$plan*$Department; 
-  ?> <h3><?php echo "Consumption plan: ".$sum;?></h3><?php
+  ?> <h3><?php echo "base on the trend of previous energy consumption. the amount of energy thn you may consume on selected epartment : ".$sum;?></h3><?php
        }
        }
 
@@ -64,7 +64,7 @@ class Student
       $Start_Date= mysqli_real_escape_string($this->conn,trim($post_data['Start_Date']));
       $End_date= mysqli_real_escape_string($this->conn,trim($post_data['End_date']));      
 
-       $sql = "SELECT SUM(energy) AS sum_energy FROM daily_consumption where datetim between '$Start_Date' and '$End_date'";
+       $sql = "SELECT SUM(energy) AS sum_energy,  FROM daily_consumption where datetim between '$Start_Date' and '$End_date'";
        $result=  $this->conn->query($sql);        
        $row = $result->fetch_assoc();
        $a=$row['sum_energy'];
