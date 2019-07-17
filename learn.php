@@ -43,6 +43,12 @@ function showResult()
 {
   if(speechRec.resultValue){
   let message = input_box.value(speechRec.resultString);
+     bot.reply("local-user",speechRec.resultString ).then(function(reply) {
+    botReply(reply);
+    ongea.speak(reply);
+     ongea.setVoice('Alice');
+
+  });
 
  
   }
@@ -88,6 +94,7 @@ function selfReply(message){
 function botReady(){
   bot.sortReplies();
   botReply('Hello there you can type or speak too am listening');
+  ongea.speak('Hello there you can type or speak too am listening');
 }
 
 function botNotReady(err){
