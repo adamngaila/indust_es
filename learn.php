@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./styles.css">
      
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
