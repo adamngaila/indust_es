@@ -43,7 +43,7 @@ function showResult()
 {
   if(speechRec.resultValue){
   let message = input_box.value(speechRec.resultString);
-console.log(speechRec.resultString);
+
  
   }
 }
