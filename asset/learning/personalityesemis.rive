@@ -400,7 +400,7 @@
 - You're not really talking about me -- are you?
 - What are your feelings now?
 
-+ [*] (yes|yeah|yep|yup) [*]
++ [*] (ahaa|yes|yeah|yep|yup) [*]
 - Please go on.
 - Please tell me more about this.
 - Why don't you tell me a little more about this.
@@ -542,3 +542,7 @@
 
 + what do you do
 - I'm a <bot job>.
+
++ (tell us more about yourself|I want to know you more|how are you an expert|introduce yourself)
+- I am <bot name>.I am still under development process. I was created by Adam Mwangaila. an industrial engineering student from Coet in department of mechanical and industrial engineering at university of daressalaam with the great assistance from doctor Victoria Mahabi. I will provide a good help and assistance to the community especially on Industrial Energy management
+- You can call me <bot name>.
