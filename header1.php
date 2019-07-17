@@ -76,7 +76,7 @@
                         <!-- second-level-items -->
                     </li>
                     <li>
-                        <a href="lighting.php"><i class="fa fa-bar-chart-o fa-fw"></i> Energy Audit<span class="fa arrow"></span></a>
+                        <a href="audt.php"><i class="fa fa-bar-chart-o fa-fw"></i> Energy Audit<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="management.php">management</a>
