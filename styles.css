@@ -1,10 +1,10 @@
 * {
   font-family: Courier;
-  font-size: 11pt;
+  font-size: 13pt;
 }
 
 .chat {
-  width: 500px;
+  width: 900px;
   height: 90%;
   position: fixed;
   overflow: scroll;
@@ -18,7 +18,7 @@
 }
 
 .actions input{
-  height: 30px;
+  height: 40px;
   display: block;
   width: 100%;
   outline: 0;
