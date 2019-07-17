@@ -55,7 +55,8 @@ const input_box = document.querySelector('input');
 
 const brains = [
   'https://raw.githubusercontent.com/adamngaila/indust_es/master/asset/learning/star.rive',
-  'https://raw.githubusercontent.com/adamngaila/indust_es/master/asset/learning/macro.rive'
+  'https://raw.githubusercontent.com/adamngaila/indust_es/master/asset/learning/macro.rive',
+  'https://raw.githubusercontent.com/adamngaila/indust_es/master/asset/learning/personalityesemis.rive'
 ];
 
 bot.loadFile(brains).then(botReady).catch(botNotReady);
