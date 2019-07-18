@@ -5,7 +5,7 @@
   institution: university of Dar es salaam Coet
    -->
 <!DOCTYPE html>
-<html lang="zxx">
+
    <head>
       <title>Industrial | Energy Management</title>
       <!--meta tags -->
