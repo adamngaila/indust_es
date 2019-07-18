@@ -1,61 +1,74 @@
 $(function() {
     //  morris Area chart on dashboard///
+    
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            brewing: 151.3,
+            chiller:36.7 ,
+           utility: 44.1,
+            store: 4.9,
+            administration:7.3 
+            
         }, {
-            period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+
+            brewing: 151.3,
+            chiller: 36.6,
+           utility: 43.9,
+            store: 4.9,
+            administration:7.3;
         }, {
-            period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            
+            brewing: 150.3,
+            chiller: 36.4,
+           utility: 43.7,
+            store: 7.3,
+            administration:4.9
         }, {
-            period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            
+            brewing: 149.2,
+            chiller: 36.1,
+           utility: 43.3,
+            store: 7.2,
+            administration:4.8
         }, {
-            period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+           
+          brewing: 151.2,
+            chiller: 36.6,
+           utility: 43.9,
+            store: 7.3,
+            administration:4.9
         }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+           
+            brewing: 145,
+            chiller: 35.1,
+           utility: 42.1,
+            store: 7.0,
+            administration:4.7
         }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            brewing: 136.5,
+            chiller: 33.0,
+           utility: 39.6,
+            store: 6.6,
+            administration:4.4
         }, {
-            period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
-        }, {
-            period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
-        }, {
-            period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            
+
+            brewing: '2010 Q1',
+            chiller: 2666,
+           utility: null,
+            store: 2647,
+            administration
+        },  {
+           brewing: 141.6,
+            chiller: 34.3,
+           utility: 41.1,
+            store: 6.9,
+            administration:4.6
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['brewring', 'chiller', 'utility','store','administration'],
+        labels: ['brewiring', 'chiller', 'store',' administration'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
