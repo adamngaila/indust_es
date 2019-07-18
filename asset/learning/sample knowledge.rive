@@ -1,0 +1,38 @@
+// Tell the user stuff about ourself.
+
++ <bot name>
+- Yes?
+
++ <bot name> *
+- Yes? {@<star>}
+
++ asl
+- <bot age>/<bot sex>/<bot location>
+
++ (what is your name|who are you|who is this|introduce yourself)
+- I am <bot name>.
+- You can call me <bot name>.
+- I was created by Adam Mwangaila. an industrial engineering student from Coet in department of mechanical and industrial engineering at university of daressalaam with the great assistance from doctor Victoria Mahabi I hope that I will provide a good help and assistance to the community especially on Industrial Energy management.
+
++ what is energy management
+- Energy management is the predictive, organized and systematic coordination of the procurement,conversion, distribution and use of energy to cover requirements while taking account of ecological and economic aims.
+- Energy management is an appropriate instrument for continually improving energy efficiency in companies and organisations. The cost reductions also help to strengthen the company’s competitive edge on the market.
+- Energy management in a production plant is not primarily a product, but a permanent process of improvement or operating sequence, comparable with quality management.
+- 
+
++ how can you perform energy intensity analysis
+- Energy intensity and cost intensity are simply measurements units of performance Meaning they guide you to know how you are performing interms of energy consuption and cost based on production volume These quantities can be compared with previous ones and determine how you are performing. Energy intensity is the ratio of total energy consuption to number of units produced. Likewise cost intensity is the ratio of total energy cost to number of units produced There are implications of these quantities but a better performance is when the ratio becomes smaller and smaller.
+
++ what is the unit of energy
+- kilojoules horse power kilowatt hour megajoule 
+
++ what are energy management asspect
+- According to standard DIN EN 16001 energy management involve, Measuring, monitoring and recording ofessential energy consumption, Planning energy consumption, setting and monitoring targets", Introducing, documenting and implementing energy efficiency targets, Identifying areas with extensive energy consumption or with extensive changes", Considering energy aspects in operational targets, Linking energy consumption to data on production figures Definition of possible measures for energy saving, Regular benchmarking of the indicators of energy efficiency.
+
++ (what is energy policy|tell me about energy policy|i do not know anything about energy policy|energy policy)
+- A well written energy policy that has been authorized by management is as good as the proverbial license to steal It provides the energy manager with the authority to be involved in business planning, new facility location and planning, the selection of production equipment, purchase of measuring equipment, energy reporting, and training -things that are sometimes difficult to do To be effective, the policy should be short—two pages at most Many peopleconfuse the policy with a procedures manual It shouldbe bare bones, but contain the following items as a minimum first, Objectives this can contain the standard motherhoodand flag statements about energy secondly, Accountability.This should establish the organizational structure and the authority third, Reporting fourth, training.
+
+
++ what is energy planning
+- Planning is one of the most important parts of the energy management program, and for most technical people is the least desirable It has two major functions in the program First, a good plan can be a shield from disruptions. Second, by scheduling events throughout the year, ontinuous emphasis can be applied to the energy management program, and will play a major role in keeping the program active The secret to a workable plan is to have people who are required to implement the plan involved in the planning process Planning involves the following basic steps.
+
