@@ -5,17 +5,17 @@ $(function () {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2018 Q1',
+            period: '2017 Q1',
             brewiring: 2666,
             utility: null,
             store: 2647
         }, {
-            period: '2018 Q2',
+            period: '2017 Q2',
             brewiring: 2778,
             utility: 2294,
             store: 2441
         }, {
-            period: '2018 Q3',
+            period: '2017 Q3',
             brewering: 4912,
             utility: 1969,
             store: 2501
