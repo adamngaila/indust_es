@@ -64,14 +64,15 @@ class Student
       $Start_Date= mysqli_real_escape_string($this->conn,trim($post_data['Start_Date']));
       $End_date= mysqli_real_escape_string($this->conn,trim($post_data['End_date']));      
 
-       $sql = "SELECT SUM(energy) AS sum_energy,  FROM daily_consumption where datetim between '$Start_Date' and '$End_date'";
+       $sql = "SELECT SUM(energy) AS sum_energy,SUM(production_units(HL)) AS production,  FROM daily_consumption where datetim between '$Start_Date' and '$End_date'";
        $result=  $this->conn->query($sql);        
        $row = $result->fetch_assoc();
        $a=$row['sum_energy'];
-       $en=$a/2;
+       $b=$row['production'];
+       $en=$a/$b;
 
  
-  ?> <h3><?php echo "Consumption plan: ".$en;?></h3><?php
+  ?> <h3><?php echo "energy intenstity analysis for the selected time period is: ".$en;?></h3><?php
        }
        }
 
@@ -90,7 +91,7 @@ class Student
        $cos=$a*2;
 
  
-  ?> <h3><?php echo "Consumption plan: ".$cos;?></h3><?php
+  ?> <h3><?php echo "Cost intensity analysis: ".$cos;?></h3><?php
        }
        }
 
