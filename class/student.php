@@ -34,8 +34,8 @@ class Student
        $sql = "SELECT AVG(energy) AS average_energy FROM daily_consumption where datetim between '$Start_Date' and '$End_date'";
        $result=  $this->conn->query($sql) ;        
        $row = $result->fetch_assoc();
- 
-  ?> <h3><?php echo "forecasting process is complete the forecasting process is based on moving average techniques due to the trend of former data. with the level of confidence 83.42248243% the forecasted energy value is: ".$row['average_energy'];?></h3><?php
+
+  ?> <h3><?php echo "forecasting process is complete the forecasting process is based on moving average techniques due to the trend of former data. with the level of confidence 73.42% with a reidue of +7.635,-7.635 the forecasted energy value is: ".$row['average_energy'];?></h3><?php
 
        }
        }
