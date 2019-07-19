@@ -6,59 +6,59 @@ $(function () {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            period: '2018 Q1',
+            brewiring: 2666,
+            utility: null,
+            store: 2647
         }, {
-            period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            period: '2018 Q2',
+            brewiring: 2778,
+            utility: 2294,
+            store: 2441
         }, {
-            period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            period: '2018 Q3',
+            brewering: 4912,
+            utility: 1969,
+            store: 2501
         }, {
-            period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            period: '2018 Q4',
+            brewiring: 3767,
+            utility: 3597,
+            store: 5689
         }, {
-            period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            period: '2019 Q1',
+            brewiring: 6810,
+            utility: 1914,
+            store: 2293
         }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            period: '2019 Q2',
+            brewiring: 5670,
+            utility: 4293,
+            store: 1881
         }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            period: '2019 Q3',
+            brewiring: 4820,
+            utility: 3795,
+            store: 1588
         }, {
-            period: '2011 Q4',
+            period: '2019 Q4',
             iphone: 15073,
             ipad: 5967,
             itouch: 5175
         }, {
-            period: '2012 Q1',
+            period: '2019 Q1',
             iphone: 10687,
             ipad: 4460,
             itouch: 2028
         }, {
-            period: '2012 Q2',
+            period: '2019Q2',
             iphone: 8432,
             ipad: 5713,
             itouch: 1791
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['brewiring', 'utility', 'store'],
+        labels: ['brewiring', 'utility', 'store'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
@@ -67,14 +67,14 @@ $(function () {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
-            label: "Download Sales",
-            value: 12
+            label: "demand(KVA)",
+            value: 13
         }, {
-            label: "In-Store Sales",
-            value: 30
+            label: "administration consumption",
+            value: 5
         }, {
-            label: "Mail-Order Sales",
-            value: 20
+            label: "production energy consumption",
+            value: 85
         }],
         resize: true
     });
@@ -82,37 +82,37 @@ $(function () {
     Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
-            y: '2006',
-            a: 100,
+            y: 'january2018',
+            a: 146,
             b: 90
         }, {
-            y: '2007',
-            a: 75,
+            y: 'febuary2018',
+            a: 175,
             b: 65
         }, {
-            y: '2008',
-            a: 50,
+            y: 'march2018',
+            a: 150,
             b: 40
         }, {
-            y: '2009',
-            a: 75,
+            y: 'april 2018',
+            a: 145,
             b: 65
         }, {
-            y: '2010',
-            a: 50,
+            y: 'january 2019',
+            a: 150,
             b: 40
         }, {
-            y: '2011',
-            a: 75,
+            y: 'febuary 2019',
+            a: 155,
             b: 65
         }, {
-            y: '2012',
-            a: 100,
+            y: 'march 2019',
+            a: 168,
             b: 90
         }],
         xkey: 'y',
         ykeys: ['a', 'b'],
-        labels: ['Series A', 'Series B'],
+        labels: ['depertment consumtion', 'time'],
         hideHover: 'auto',
         resize: true
     });
@@ -120,31 +120,31 @@ $(function () {
     Morris.Line({
         element: 'morris-line-chart',
         data: [{
-            y: '2006',
+            y: '2018',
             a: 100,
             b: 90
         }, {
-            y: '2007',
+            y: '2018',
             a: 75,
             b: 65
         }, {
-            y: '2008',
+            y: '2018',
+            a: 80,
+            b: 40
+        }, {
+            y: '2018',
+            a: 75,
+            b: 65
+        }, {
+            y: '2019',
             a: 50,
             b: 40
         }, {
-            y: '2009',
+            y: '2019',
             a: 75,
             b: 65
         }, {
-            y: '2010',
-            a: 50,
-            b: 40
-        }, {
-            y: '2011',
-            a: 75,
-            b: 65
-        }, {
-            y: '2012',
+            y: '2019',
             a: 100,
             b: 90
         }],
