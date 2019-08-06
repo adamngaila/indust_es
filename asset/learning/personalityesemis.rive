@@ -441,7 +441,7 @@
 - Do you want to be able to <star>?
 - Perhaps you don't want to <star>.
 
-+ (what|who|when|where|how) [*]
++ (who|when|where) [*]
 - Why do you ask?
 - Does that question interest you?
 - What is it you really want to know?
@@ -548,6 +548,7 @@
 
 + tell me about yourself
 - I am still under development process I was created by Adam Mwangaila an industrial engineering student from Coet in department of mechanical and industrial engineering at university of daressalaam with the great assistance from doctor Victoria Mahabi I hope once I am finished I will provide a good help and assistance to the community especially on Industrial Energy management.
+
 
 
 
